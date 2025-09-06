@@ -6,7 +6,7 @@ body{
     margin: 0px;
     background-color: #fff;
     box-sizing: border-box;
-    font-family:'inter',sans-serif;
+   font-family: 'Inter', sans-serif;
     overflow-x: hidden;
 }
 .container{
@@ -1265,4 +1265,5 @@ html, body {
   height:500px;
   margin-top: 30px;
   background-color: orange;
+
 }

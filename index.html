@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Feenicks1 offers investment opportunities in real estate, agribusiness, forex trading, and more. Start investing today">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@2..2,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>FEENICKS1</title>
+    <link rel="stylesheet" href="/styles/homepage.css">
+</head>
+<body>
+    <div class="container">
+  <head>
+    <nav>
+       
+        <ul>
+         
+            <p class="logo">FEENICKS1</p>
+            <li class="drop-down">
+              <a href="index.html">HOME <span class="down-icon"> &#9662; </span></a>
+                <div class="investments-drop-down">
+                  <div class="drop-down-items">
+                   <p class="menu-item">About Us</p>
+                   <p class="menu-item">Why Choose Us</p>
+                   <p class="menu-item">Testimonials</p>
+                  
+                   </div>
+                </div>
+            </li>
+
+              <li class="drop-down">
+                <a href="">INVESTMENTS <span class="down-icon"> &#9662; </span></a>
+                <div class="investments-drop-down">
+                  <div class="drop-down-items">
+                   <p class="menu-item">Real Estate Pool fund</p>
+                   <p class="menu-item">Agribusiness Capital</p>
+                   <p class="menu-item">Investwise Capital</p>
+                   <p class="menu-item">BitSusu Capital</p>
+                   <p class="menu-item">Mutual fund Capital</p>
+                   <p class="menu-item">Forex Trading Capital</p>
+                   <p class="menu-item">Loan fund Services</p>
+                   </div>
+                </div>
+              </li>
+              
+                <li class="drop-down">
+                  <a href="">MARKETS <span class="down-icon"> &#9662; </span></a>
+                   <div class="investments-drop-down">
+                  <div class="drop-down-items">
+                   <p class="menu-item">Crypto Live Prices</p>
+                   <p class="menu-item"> Exchange Rates</p>
+                   <p class="menu-item">News & Insights</p>
+                   <p class="menu-item">Commodities Watch</p>
+                   <p class="menu-item">Market Trends </p>
+                  
+                   </div>
+                </div>
+
+                </li>
+                  <li class="drop-down">
+                    <a href="">SERVICES <span class="down-icon"> &#9662; </span></a>
+                   <div class="investments-drop-down">
+                  <div class="drop-down-items">
+                   <p class="menu-item">Financial Advisory</p>
+                   <p class="menu-item">Portfolio Management</p>
+                   <p class="menu-item">Retirement Planning</p>
+                   <p class="menu-item">Tax & Wealth Strategy</p>
+                  
+                   </div>
+                </div>
+                  
+                  </li>
+                   <li class="drop-down">
+                    <a href="">ACCOUNT <span class="down-icon"> &#9662; </span></a>
+                     <div class="investments-drop-down">
+                  <div class="drop-down-items">
+                   <p class="menu-item">Login/Register</p>
+                   <p class="menu-item">My Dashboard</p>
+                   <p class="menu-item">Investment Plans</p>
+                   <p class="menu-item">Transactions History</p>
+                   <p class="menu-item">Profile Settings</p>
+
+                   </div>
+                </div>
+                  </li>
+                    <!-- <li><a href="">WHY FEENICKS1</a></li> -->
+                     <input type="text"class="top-search"placeholder="      Ask a question...">
+    
+        </ul>
+    </nav>
+
+       
+  <main>
+      <div class="hero-section">
+        <div class="overlay">
+        <img src="/pictures/bestfamily.webp" alt=""class="hero-img">
+        <div class="hero-popup">
+            <p class="pop-up-maintext"> Your Future Starts with<br>One Smart Move <br> today</p>
+            <p class="mini-text-forhero">You do not need to be rich to start investing <br> You just need to get started. 
+                
+            </p>
+            <button class="open-account-btn">  <span>Start Investing Today <span class="arrow"> &rarr; </span> </span>  </button>
+            <button class="plan-btn">Get a Free Plan Review</button>
+            <p class="trusted-text">Trusted By Over 500+ Investors</p>
+       </div>
+        </div>
+      </div>
+
+      <!-- Floating Button -->
+  
+
+  <!-- CTA Button -->
+  <button class="calculator" onclick="openPopup()">Feenicks1 Calculator</button>
+
+  <!-- Popup -->
+  <div class="popup-overlay" id="investmentPopup">
+    <div class="popup-container">
+      <button class="close-btn" onclick="closePopup()">×</button>
+      <!-- <h2>Investment Advisor</h2> -->
+      <label for="amount">Enter Amount You Wish to Invest ($)</label>
+      <input type="number" id="amount" placeholder="e.g., 5000">
+
+    
+
+  
+
+      </button>
+    <span class="button-text"></span>
+    <span class="typing-bubble" style="display:none;">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+
+      <div class="result" id="result"></div>
+        <button class="Professional-btn" onclick="calculateAdvice()  ; ">Get Professional Advice
+    </div>
+  </div>
+
+
+
+
+
+
+
+  </main>
+  <!---end of hero section--------------->
+
+
+
+  <div class="next-section-after-hero">
+
+       <!----------numbers statistics section-------------->
+  <div class="stats-container">
+    <div class="stat-box">
+      <h2 class="stat-number" data-target="700">0</h2>
+      <p class="stat-label">Users</p>
+    </div>
+    <div class="stat-box">
+      <h2 class="stat-number" data-target="550">0</h2>
+      <p class="stat-label">Active Investors</p>
+    </div>
+    <div class="stat-box">
+      <h2 class="stat-number" data-target="15">0</h2>
+      <p class="stat-label">ROI %</p>
+    </div>
+    <div class="stat-box">
+      <h2 class="stat-number" data-target="5">0</h2>
+      <p class="stat-label">Partners</p>
+    </div>
+  </div>
+<!-- </section> -->
+     </div>
+
+     <!--------------why choose us section-------------->
+      <p class="why">Why Choose Feenicks1 Investments</p>
+
+<div class="after-hero">
+  <div class="intro-card">
+    <img src="save1.png" alt="" class="img-under-hero">
+    <div class="inner-text">
+      <p class="diversified">Diversified Investments</p>
+      <p class="explore">Explore a range of investment <br> opportunities to reach your goals</p>
+    </div>
+  </div>
+
+  <div class="intro-card">
+    <img src="friendly2.png" alt="" class="img-under-hero">
+    <div class="inner-text">
+      <p class="diversified">Beginner-Friendly</p>
+      <p class="explore">Simple and transparent <br> process designed for you</p>
+    </div>
+  </div>
+
+  <div class="intro-card">
+    <img src="grow3.png" alt="" class="img-under-hero">
+    <div class="inner-text">
+      <p class="diversified">Potential Returns</p>
+      <p class="explore">Earn potential returns and <br> grow your wealth over time</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!------------------end the why choose section-------------------->
+
+     <div class="big-section">
+      <div class="first-big-inner">
+        <img src="/pictures/bestfamily.webp"class="inner-img" alt="">
+      </div>
+        <div class="sec-big-inner">
+        <div class="second-inner-text-container">
+          <p class="partner-text">Partnering today for lasting success</p>
+          <p class="Collaborate-text">Collaborate with a dedicated Feenicks1 advisor to build a comprehensive wealth 
+            management strategy designed to help you meet your goals and evolving needs.
+          </p>
+          <button class="find-btn">Find an advisor</button>
+        </div>
+      </div>
+     </div>
+
+     <!-----------what we offer section-------------->
+     <div class="investments-packages">
+      <h2 class="investment-packages-title">OUR RANGE OF INVESTMENT PACKAGES</h2>
+   <div class="investments-options-all">
+    <div class="first-package-row">
+      <div class="packages first-card">
+         <img src="/pictures/home-4_bg2.jpg" alt=""class="package-image">
+        <h3 class="type-investments">Bitsusu Capital</h3>
+        <p class="min-investment">Min $500</p>
+       
+          <li> <span class="checkmark">&#10004;</span>  High growth potential</li>
+          <li><span class="checkmark">&#10004;</span>   Low risk</li>
+          <li> <span class="checkmark">&#10004;</span>  24/7 portfolio monitoring</li>
+          <li> <span class="checkmark">&#10004;</span>  Secure digital wallet</li>
+       
+      
+        <button class="invest-btn-product">Invest Now</button>
+      </div>
+
+      <div class="packages sec-card">
+        <img src="/pictures/home-4_bg2.jpg" alt=""class="package-image">
+        <h3 class="type-investments">Investwise Capital</h3>
+        <p class="min-investment">Min $1500</p>
+       
+          <li> <span class="checkmark">&#10004;</span>  High growth potential</li>
+          <li><span class="checkmark">&#10004;</span>   Low risk</li>
+          <li> <span class="checkmark">&#10004;</span>  24/7 portfolio monitoring</li>
+          <li> <span class="checkmark">&#10004;</span>  Secure digital wallet</li>
+       
+      
+        <button class="invest-btn-product">Invest Now</button>
+      </div>
+
+      <div class="packages third-card">
+         <img src="/pictures/home-4_bg2.jpg" alt=""class="package-image">
+        <h3 class="type-investments">Loan Fund Services</h3>
+        <p class="min-investment">Min $3000</p>
+       
+          <li> <span class="checkmark">&#10004;</span>  High growth potential</li>
+          <li><span class="checkmark">&#10004;</span>   Low risk</li>
+          <li> <span class="checkmark">&#10004;</span>  24/7 portfolio monitoring</li>
+          <li> <span class="checkmark">&#10004;</span>  Secure digital wallet</li>
+       
+      
+        <button class="invest-btn-product">Invest Now</button>
+      </div>
+     </div>
+
+     <div class="sec-package-row">
+      <div class="packages fourth-card">
+          <img src="/pictures/home-4_bg2.jpg" alt=""class="package-image">
+        <h3 class="type-investments">Agribusiness Capital</h3>
+        <p class="min-investment">Min $3000</p>
+       
+          <li> <span class="checkmark">&#10004;</span>  High growth potential</li>
+          <li><span class="checkmark">&#10004;</span>   Low risk</li>
+          <li> <span class="checkmark">&#10004;</span>  24/7 portfolio monitoring</li>
+          <li> <span class="checkmark">&#10004;</span>  Secure digital wallet</li>
+       
+      
+        <button class="invest-btn-product">Invest Now</button>
+      </div>
+
+       <div class="packages fifth-card">
+         <img src="/pictures/home-4_bg2.jpg" alt=""class="package-image">
+        <h3 class="type-investments">Forex trading Capital</h3>
+        <p class="min-investment">Min $3000</p>
+       
+          <li> <span class="checkmark">&#10004;</span>  High growth potential</li>
+          <li><span class="checkmark">&#10004;</span>   Low risk</li>
+          <li> <span class="checkmark">&#10004;</span>  24/7 portfolio monitoring</li>
+          <li> <span class="checkmark">&#10004;</span>  Secure digital wallet</li>
+       
+      
+        <button class="invest-btn-product">Invest Now</button>
+       </div> 
+
+       <div class="packages sixth-card">
+          <img src="/pictures/home-4_bg2.jpg" alt=""class="package-image">
+        <h3 class="type-investments">Real Estate Pool Fund</h3>
+        <p class="min-investment">Min $3000</p>
+       
+          <li> <span class="checkmark">&#10004;</span>  High growth potential</li>
+          <li><span class="checkmark">&#10004;</span>   Low risk</li>
+          <li> <span class="checkmark">&#10004;</span>  24/7 portfolio monitoring</li>
+          <li> <span class="checkmark">&#10004;</span>  Secure digital wallet</li>
+       
+      
+        <button class="invest-btn-product">Invest Now</button>
+       </div>
+     </div>
+     
+    </div>  
+     </div>
+
+     <!---- BTC Live Chart Section ---->
+
+     <div class="live-btc-chart"> </div>
+
+     <!---testimonial section-->
+     <div class="testimonial-section"></div>
+
+   
+  </div>
+<script src="/scripts/homepage.js">
+  
+
+ </script>
+ 
+    
+</body>
+</html>
